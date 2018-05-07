@@ -1,16 +1,26 @@
 <?php
 
 //php shorthand / alternative syntax
-$temp = [
-  23,  // 0
-  25,  // 1
-  20,  // 2
-  19,  // 3
-  18,  // 4
-  20,  // 5
-  29 // 6
+$cities = [
+  "Chisinau",
+  "Balti",
+  "Orhei"
 ];
-for ($i=0; $i<7; $i++){
+// add to the END -> push
+$cities[] = "Cahul";
+
+$matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+];
+// $matrix[1] -> [4,5,6];
+// $matrix[1][2] ->6
+
+var_dump( $var);
+// !!!
+
+//for ($i=0; $i<7; $i++){
 //print $temp[$i]."<br>";
 }
 
